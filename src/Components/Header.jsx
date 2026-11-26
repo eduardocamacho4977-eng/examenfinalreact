@@ -1,4 +1,6 @@
 
+
+/* uso de los hooks */
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 

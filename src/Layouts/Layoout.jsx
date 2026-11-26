@@ -1,6 +1,6 @@
 
 import { Outlet } from 'react-router-dom';
-
+/* Layout principal de la aplicación */
 import Header from '../Components/Header.jsx';
 import Navbar from '../Components/Navbar.jsx';
 import Footer from '../Components/Footer.jsx';

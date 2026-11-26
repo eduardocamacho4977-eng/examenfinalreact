@@ -1,6 +1,7 @@
-
+/* uso de  hooks */
 import { useNavigate, useLocation } from 'react-router-dom';
 
+/* botones de navegación */
 const BOTONES = [
   { texto: 'Inicio', icono: '🏠', ruta: '/', exacta: true },
   { texto: 'vitrina', icono: '🪟', ruta: '/catalogo', exacta: false },
