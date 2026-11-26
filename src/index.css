@@ -2,7 +2,7 @@
 :root {
   --verde-900: #2237f1;
   --verde-700: #1d79e2; 
-  --verde-500: #f06464;
+  --verde-500: #344edfea;
   --verde-100: #CCFBF1;
   --naranja-600: #2024f3;
   --naranja-500: #103686;
@@ -12,8 +12,8 @@
   --gris-900: #0750b6; 
   --gris-600: #4B5563;
   --gris-300: #D1D5DB;
-  --gris-100: #2560d6; 
-  --blanco: #111010;
+  --gris-100: #153161; 
+  --blanco: #dcdedf;
   --sombra: 0 4px 14px #0000001A;  
   --radio: 12px;
 }
@@ -198,12 +198,12 @@ img {
   color: var(--blanco);
 }
 
-/* ESTADO active: efecto de "presionado" */
+
 .btn:active {
   transform: scale(0.97);
 }
 
-/* ESTADO disabled: botón apagado y sin interacción */
+
 .btn:disabled {
   background-color: var(--gris-300);
   color: var(--gris-600);
@@ -211,7 +211,7 @@ img {
   transform: none;
 }
 
-/* ESTADO focus-visible: accesibilidad con teclado (Tab) */
+
 button:focus-visible,
 a:focus-visible,
 input:focus-visible,
@@ -220,7 +220,7 @@ select:focus-visible {
   outline-offset: 2px;
 }
 
-/* ---------- 6. SECTIONS ---------- */
+
 .seccion {
   background-color: var(--blanco);
   border-radius: var(--radio);
@@ -238,7 +238,7 @@ select:focus-visible {
   padding: 24px;
 }
 
-/* Pestañas (NavLink) para las rutas hijas */
+
 .pestanas {
   display: flex;
   gap: 4px;
@@ -260,13 +260,11 @@ select:focus-visible {
   color: var(--verde-700);
 }
 
-/* ESTADO activo: NavLink agrega la clase "active" automáticamente */
 .pestanas__item.active {
   color: var(--verde-700);
   border-bottom-color: var(--verde-700);
 }
 
-/* ---------- 7. INICIO ---------- */
 .inicio {
   text-align: center;
 }
@@ -311,7 +309,7 @@ select:focus-visible {
   padding: 0 16px;
 }
 
-/* ---------- 8. CATÁLOGO ---------- */
+
 .catalogo__barra {
   display: flex;
   justify-content: space-between;
@@ -348,13 +346,13 @@ select:focus-visible {
   background-color: var(--blanco);
 }
 
-/* ESTADO focus del input */
+
 .buscador:focus {
   border-color: var(--verde-500);
   outline: none;
 }
 
-/* Grilla responsiva de productos con CSS Grid */
+
 .grilla {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -371,7 +369,7 @@ select:focus-visible {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-/* ESTADO hover de la tarjeta: se eleva */
+
 .tarjeta:hover {
   transform: translateY(-4px);
   box-shadow: var(--sombra);
@@ -398,7 +396,7 @@ select:focus-visible {
 
 .tarjeta__titulo {
   font-size: 0.95rem;
-  flex: 1; /* empuja precio y botón hacia abajo */
+  flex: 1;
 }
 
 .tarjeta__precio {
@@ -407,7 +405,7 @@ select:focus-visible {
   color: var(--verde-700);
 }
 
-/* ---------- 9. ESTADOS DE LA INTERFAZ ---------- */
+
 .estado {
   padding: 24px;
   text-align: center;
@@ -441,7 +439,6 @@ select:focus-visible {
   margin-top: 20px;
 }
 
-/* Spinner de carga con animación CSS */
 .spinner {
   width: 28px;
   height: 28px;
@@ -457,7 +454,6 @@ select:focus-visible {
   }
 }
 
-/* ---------- 10. CARRITO ---------- */
 .carrito {
   list-style: none;
   display: flex;
@@ -525,7 +521,6 @@ select:focus-visible {
   font-weight: 700;
 }
 
-/* ---------- 11. RESUMEN ---------- */
 .resumen {
   max-width: 480px;
 }
@@ -562,7 +557,7 @@ select:focus-visible {
   margin-top: 20px;
 }
 
-/* ---------- 12. FOOTER ---------- */
+
 .footer {
   background-color: var(--gris-900);
   color: var(--gris-300);

@@ -26,7 +26,7 @@ function Header() {
         <div>
           <h1 className="header__titulo">MercaCauca</h1>
           <p className="header__lema">Tu mercado en línea mas confiable del pais</p>
-          <p>ven y adquiere tus articulos</p>
+          <p>ven y adquiere tus productos</p>
         </div>
       </div>
 
