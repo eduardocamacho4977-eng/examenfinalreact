@@ -1,16 +1,21 @@
-
 function Footer() {
   const anio = new Date().getFullYear();
 
   return (
     <footer className="footer">
       <p>
-        © {anio}  Juan Eduardo Orozco Camacho . 3223898 . 2026
+        © {anio} Juan Eduardo Orozco Camacho · ficha 3223898 · 2026
       </p>
-      
-    
-        
-    
+      <p className="footer__apis">
+        Datos de prueba:{' '}
+        <a href="https://fakestoreapi.com" target="_blank" rel="noreferrer">
+          FakeStoreAPI
+        </a>{' '}
+        y{' '}
+        <a href="https://dummyjson.com" target="_blank" rel="noreferrer">
+          DummyJSON
+        </a>
+      </p>
     </footer>
   );
 }
