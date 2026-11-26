@@ -35,10 +35,10 @@ function Resumen() {
 
   return (
     <div className="resumen">
-      <h2>Resumen de compra</h2>
+      <h2>Resumen de  mis compras</h2>
 
       <dl className="resumen__tabla">
-        <dt>Productos distintos</dt>
+        <dt>Productos diferentes</dt>
         <dd>{productos.length}</dd>
 
         <dt>Unidades</dt>

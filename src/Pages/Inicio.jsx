@@ -18,14 +18,14 @@ function Inicio() {
        
         <article className="tarjeta-inicio">
           <img src={hero} alt="Vista previa del catálogo" />
-          <h3>Catálogo</h3>
+          <h3>Productos</h3>
           
           <button
             type="button"
             className="btn btn--primario"
             onClick={() => navigate('/catalogo')}
           >
-            Ver catálogo
+            VER PRODUCTOS
           </button>
         </article>
 
@@ -39,7 +39,7 @@ function Inicio() {
             className="btn btn--secundario"
             onClick={() => navigate('/compras')}
           >
-            Ir al carrito
+            Ir a mi carrito
           </button>
         </article>
       </div>

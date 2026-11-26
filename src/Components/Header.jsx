@@ -25,7 +25,8 @@ function Header() {
         <img src={vite} alt="vite de MercaCauca" className="header__vite" />
         <div>
           <h1 className="header__titulo">MercaCauca</h1>
-          <p className="header__lema">Tu mercado en línea mas confiable</p>
+          <p className="header__lema">Tu mercado en línea mas confiable del pais</p>
+          <p>ven y adquiere tus articulos</p>
         </div>
       </div>
 

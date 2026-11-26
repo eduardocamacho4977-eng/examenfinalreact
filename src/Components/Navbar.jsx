@@ -2,7 +2,7 @@
 import { useNavigate, useLocation } from 'react-router-dom';
 
 const BOTONES = [
-  { texto: 'Inicio', icono: '🏠ñ', ruta: '/', exacta: true },
+  { texto: 'Inicio', icono: '🏠', ruta: '/', exacta: true },
   { texto: 'vitrina', icono: '🪟', ruta: '/catalogo', exacta: false },
   { texto: 'Mi canasta', icono: '🛒', ruta: '/compras', exacta: true },
   { texto: 'Mi pedido', icono: '🧾', ruta: '/compras/resumen', exacta: true },
