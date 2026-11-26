@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="footer">
       <p>
-        © {anio} Juan Eduardo Orozco Camacho · ficha 3223898 · 2026
+        © {anio} Juan Eduardo Orozco Camacho · ficha 3223898 
       </p>
       <p className="footer__apis">
         Datos de prueba:{' '}

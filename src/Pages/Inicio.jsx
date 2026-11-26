@@ -1,7 +1,7 @@
 
 import { useNavigate } from 'react-router-dom';
 
-import hero from '../assets/hero.padding: ,'
+import hero from '../assets/hero.png';
 import react from '../assets/react.svg';
 
 function Inicio() {
