@@ -23,7 +23,7 @@ function Carrito() {
           className="btn btn--primario"
           onClick={() => navigate('/catalogo')}
         >
-          Ir al catálogo
+          Ir a productos
         </button>
       </div>
     );
