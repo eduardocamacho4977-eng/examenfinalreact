@@ -57,7 +57,7 @@ function ProductosAxios() {
       } catch (err) {
         
         if (!axios.isCancel(err)) {
-          setError('No se pudieron cargar los productos. ' + err.message);
+          setError('No  cargaron los productos. ' + err.message);
         }
       } finally {
         if (!controlador.signal.aborted) setCargando(false);
